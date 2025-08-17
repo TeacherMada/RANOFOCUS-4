@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RanoFocus 4 - Analyse Géophysique Avancée</title>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="description" content="Application professionnelle d'analyse géophysique pour la détection d'eau souterraine et la caractérisation des formations géologiques" />
+    
+    <!-- Apple PWA Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="RanoFocus 4" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    
+    <!-- Microsoft PWA Meta Tags -->
+    <meta name="msapplication-TileColor" content="#2563eb" />
+    <meta name="msapplication-TileImage" content="/icon-192.png" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="RanoFocus 4 - Analyse Géophysique Avancée" />
+    <meta property="og:description" content="Application professionnelle d'analyse géophysique pour la détection d'eau souterraine" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/icon-512.png" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="RanoFocus 4" />
+    <meta name="twitter:description" content="Analyse géophysique avancée pour la détection d'eau souterraine" />
+    <meta name="twitter:image" content="/icon-512.png" />
+    <script type="module" crossorigin src="/assets/index-3ikJSVsm.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B8kaLgXq.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <!-- PWA Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((registration) => {
+              console.log('SW registered: ', registration);
+            })
+            .catch((registrationError) => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "name": "RanoFocus 4 - Analyse Géophysique Avancée",
+  "short_name": "RanoFocus 4",
+  "description": "Application professionnelle d'analyse géophysique pour la détection d'eau souterraine et la caractérisation des formations géologiques",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "fr",
+  "categories": ["productivity", "utilities", "education"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Interface principale de RanoFocus 4"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "640x1136",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Vue mobile de RanoFocus 4"
+    }
+  ],
+  "features": [
+    "Analyse géophysique avancée",
+    "Inversion 3D des données de résistivité",
+    "Détection automatique d'anomalies",
+    "Visualisation interactive 2D/3D",
+    "Export de données et graphiques",
+    "Fonctionnement hors ligne"
+  ],
+  "prefer_related_applications": false
+}
+
